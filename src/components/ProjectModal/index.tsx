@@ -1,0 +1,46 @@
+import { Project } from "@/lib/types/Project"
+import Section1 from "../ProjectSections/Section1"
+import Section2 from "../ProjectSections/Section2"
+import Section3 from "../ProjectSections/Section3"
+import Section4 from "../ProjectSections/Section4"
+import Section5 from "../ProjectSections/Section5"
+import Section6 from "../ProjectSections/Section6"
+import Section7 from "../ProjectSections/Section7"
+
+const ProjectModal = ({ project, setModal }: { project: Project, setModal: React.Dispatch<React.SetStateAction<Project | undefined>> }) => {
+  return (
+    <div className="fixed inset-0 flex items-center justify-center z-50">
+      <div className="bg-white rounded-lg shadow-lg py-12 px-10 lg:px-20 max-w-7xl w-11/12 relative z-10 max-h-10/12 overflow-y-auto">
+
+        <h3 className="text-2xl mb-2 ">{project.title}</h3>
+        <p className="mb-4 font-quicksand font-light">{project.description}</p>
+        <div className="w-full aspect-[1.5/1] bg-[#d9d9d9] mb-8" />
+
+        <p className="text-6xl">01</p>
+        <hr className="my-5" />
+        <Section1 project={project} />
+        <p className="text-6xl mt-16">02</p>
+        <hr className="my-5" />
+        <Section2 project={project} />
+        <p className="text-6xl mt-16">03</p>
+        <hr className="my-5" />
+        <Section3 project={project} />
+        <p className="text-6xl mt-16">04</p>
+        <hr className="my-5" />
+        <Section4 project={project} />
+        <p className="text-6xl mt-16">05</p>
+        <hr className="my-5" />
+        <Section5 project={project} />
+        <p className="text-6xl mt-16">06</p>
+        <hr className="my-5" />
+        <Section6 project={project} />
+        <p className="text-6xl mt-16">07</p>
+        <hr className="my-5" />
+        <Section7 project={project} />
+      </div>
+      <div className="absolute z-0 top-0 h-screen left-0 w-screen bg-black/50" onClick={() => setModal(undefined)} />
+    </div>
+  )
+}
+
+export default ProjectModal
