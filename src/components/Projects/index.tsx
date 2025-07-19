@@ -9,10 +9,10 @@ const Projects = ({setModal}: {setModal: React.Dispatch<React.SetStateAction<Pro
                 <div key={project.id} onClick={() => setModal(project)}>
                     <div className="w-full aspect-[1.5/1] bg-[#d9d9d9] mb-4" />
                     <div className="p-2 cursor-pointer">
-                        <p className="mb-2 text-[14px] font-quicksand font-[500]">{project.projectType} - {project.projectName}</p>
+                        <p className="mb-2 text-[16px] font-quicksand !font-[500]">{project.projectType} - {project.projectName}</p>
                         <h4 className="text-[28px] font-[800] mb-2 ">{project.title}</h4>
-                        <p className="mb-10 text-[20px] font-light font-quicksand">{project.description}</p>
-                        <p className="font-quicksand text-[16px] font-medium">{project.dateInformation.startDate} - {project.dateInformation.endDate} | Role: {project.role}</p>
+                        <p className="mb-10 text-[20px] !font-[300] font-quicksand">{project.description}</p>
+                        <p className="font-quicksand text-[16px] !font-[500]">{project.dateInformation.startDate} - {project.dateInformation.endDate} | Role: {project.role}</p>
                     </div>
                 </div>
             ))}

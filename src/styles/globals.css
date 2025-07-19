@@ -15,6 +15,10 @@ p {
     font-weight: 300;
 }
 
+input, textarea {
+    background-color: var(--color-subtlebackground);
+}
+
 @theme {
     --font-quicksand: 'Quicksand', sans-serif;
     --font-pt-sans: 'PT Sans', sans-serif;

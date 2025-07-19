@@ -12,13 +12,13 @@ const Contact = () => {
 
   return (
     <main className="min-h-[calc(100vh-120px)] flex flex-col items-center px-4 py-8">
-      <div className="max-w-xl text-center mt-12">
-        <h2 className="text-3xl font-semibold mb-4">Let’s collaborate, chat, and design together!</h2>
-        <p className="mb-3">
+      <div className="max-w-2xl text-center mt-12">
+        <h2 className="text-[32px] font-semibold mb-4">Let’s collaborate, chat, and design together!</h2>
+        <p className="mb-3 text-[20px] font-[400]">
           I’m always happy to hear from designers, developers, and curious people.
           Send a message and let’s talk research, design, or ideas!
         </p>
-        <p className="font-medium">Drop me a message below or connect with me on LinkedIn.</p>
+        <p className="text-[16px] font-[500]">Drop me a message below or connect with me on LinkedIn.</p>
       </div>
 
       <div className="bg-lightblue px-6 py-6 rounded-xl mt-10 max-w-3xl w-full shadow-lg">
