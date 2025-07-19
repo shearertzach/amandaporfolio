@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import ProjectModal from "@/components/ProjectModal";
 import Projects from "@/components/Projects";
 import { Project } from "@/lib/types/Project";

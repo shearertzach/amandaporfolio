@@ -1,5 +1,4 @@
 import { Project } from '@/lib/types/Project'
-import Image from 'next/image'
 import React from 'react'
 
 const Section3 = ({ project }: { project: Project }) => {

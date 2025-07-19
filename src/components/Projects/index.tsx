@@ -3,7 +3,6 @@ import { projects } from "../../../public/data/projects"
 
 
 const Projects = ({setModal}: {setModal: React.Dispatch<React.SetStateAction<Project | undefined>>}) => {
-    console.log(projects);
     return (
         <section className="max-w-3xl mx-auto p-4">
             {projects.map((project) => (

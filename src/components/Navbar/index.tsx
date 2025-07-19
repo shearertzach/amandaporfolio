@@ -6,8 +6,6 @@ import { useRouter } from 'next/router';
 const Navbar = () => {
   const router = useRouter()
 
-  console.log(router.pathname);
-
   return (
     <header className='flex justify-between items-center font-pt-sans p-[32px] bg-lightblue shadow-lg'>
       <h2 className='font-bold text-lg'>Logo</h2>
