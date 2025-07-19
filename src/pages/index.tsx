@@ -24,7 +24,6 @@ export default function Home() {
 
   return (
     <>
-      <Navbar />
       <main className={`h-[calc(100vh-170px)] flex items-center justify-center max-w-4xl mx-auto gap-4`}>
         <div className="p-4 lg:p-0">
           <h4 className="mb-4 font-medium text-2xl font-pt-sans">Hai! Hai! I’m Amanda.</h4>

@@ -14,9 +14,9 @@ const ProjectModal = ({ project, setModal }: { project: Project, setModal: React
 
         <h3 className="text-2xl mb-2 ">{project.title}</h3>
         <p className="mb-4 font-quicksand font-light">{project.description}</p>
-        <div className="w-full aspect-[1.5/1] bg-[#d9d9d9] mb-8" />
+        <div className="w-full aspect-[1.5/1] bg-[#d9d9d9]" />
 
-        <p className="text-6xl">01</p>
+        <h2 className="text-6xl mt-16">01</h2>
         <hr className="my-5" />
         <Section1 project={project} />
         <p className="text-6xl mt-16">02</p>
