@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 html {
-    min-height: 100vh;
     background: #fcf8f5;
 }
 
