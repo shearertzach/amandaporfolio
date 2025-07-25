@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
             <div className='flex gap-4 mt-6'>
                 <Link href="mailto:azhang.0302@gmail.com" target="_blank" rel="noopener noreferrer" className='font-quicksand font-light'>
-                    <Image 
+                    <Image
                         src="/icons/mail.png"
                         alt="Mail Logo"
                         width={42}
@@ -21,7 +21,7 @@ const Footer = () => {
                     />
                 </Link>
                 <Link href="https://www.linkedin.com/in/zhang-amanda" target="_blank" rel="noopener noreferrer" className='font-quicksand font-light'>
-                    <Image 
+                    <Image
                         src="/icons/linkedin.png"
                         alt="LinkedIn Logo"
                         width={42}
