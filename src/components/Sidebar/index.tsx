@@ -14,7 +14,7 @@ const Sidebar = ({ open, handleOpen }: { open: boolean, handleOpen: Dispatch<Set
 
     return (
         <>
-        <div className={`fixed w-11/12 h-full top-0 right-0 z-40 bg-[#edf1f7] p-12 pt-16 flex flex-col font-light text-2xl ${open ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}>
+        <div className={`absolute w-11/12 h-screen top-0 right-0 z-40 bg-[#edf1f7] p-12 pt-16 flex flex-col font-light text-2xl ${open ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}>
             <Image
                 src="/icons/close.png"
                 alt="Close Icon"
