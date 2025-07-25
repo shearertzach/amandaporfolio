@@ -16,8 +16,8 @@ const Navbar = () => {
       <Image
         src="/icons/menu.png"
         alt="Menu Icon"
-        width={38}
-        height={38}
+        width={32}
+        height={32}
         className="block sm:hidden"
         onClick={() => setOpen(!open)}
       />
